@@ -1,3 +1,5 @@
+Created with tutorial to learn basics of svelte, i.e. svelte stores, SSR and the JIT compiler, and tailwindcss
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
