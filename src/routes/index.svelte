@@ -6,7 +6,6 @@
 	let filteredPokemon = [];
 
 	$: {
-		console.log(searchTerm);
 		if (searchTerm) {
 			// search pokemon
 			filteredPokemon = $pokemon.filter((pokeman) =>
@@ -19,10 +18,10 @@
 </script>
 
 <svelte:head>
-	<title>Svelte Kit Pokedex</title>
+	<title>Pokedex</title>
 </svelte:head>
 
-<h1 class="text-4xl text-center my-8 uppercase">Svelte Kit Pokedex</h1>
+<h1 class="text-4xl text-center my-8 uppercase">Pokedex</h1>
 
 <input
 	type="text"
